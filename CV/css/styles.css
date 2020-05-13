@@ -1,0 +1,172 @@
+.card-intro {
+  margin-bottom: 10vh;
+  background-color: #232629;
+  color: #FFF;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.card-intro p {
+  font-size: 14px;
+}
+.card-intro h4 {
+  margin: 10px 0 30px 0;
+}
+
+.card-project-wrapper {
+  padding: 10px;
+}
+
+.card-project {
+  background-color: #5b5b5b;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.card-project img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+.card-project p {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.image-container {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.pinfo-container {
+  padding: 2vh;
+}
+
+.profile-pic {
+  width: 100%;
+  object-fit: cover;
+}
+
+.tbd {
+  border: solid 1px green;
+}
+
+.wrapper {
+  min-height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  position: relative;
+}
+
+section {
+  font-size: 40px;
+  font-weight: 100;
+  background-color: #22A7F0;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1) {
+  background: #ffcc00;
+}
+section:nth-child(2) {
+  background: #22A7F0;
+}
+section:nth-child(3) {
+  background: #F9690E;
+}
+section:nth-child(4) {
+  background: #9B59B6;
+}
+section:nth-child(5) {
+  background: #03C9A9;
+}
+section:nth-child(6) {
+  background: #ffcc00;
+}
+section:nth-child(7) {
+  background: #5b5b5b;
+}
+
+.section-header {
+  color: #EEE;
+  margin: 0 0 5vh 0;
+  font-size: 26px;
+}
+
+.mid-content {
+  padding-top: 10vh;
+}
+
+#section-skills ul {
+  font-size: 18px;
+}
+
+.nav__wrapper {
+  position: fixed;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+
+.nav {
+  margin: 0 0 100px 30px;
+}
+
+.nav__counter {
+  font-size: 24px;
+  transition: all 0.15s ease-out;
+}
+
+.nav__title {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0 0 0.25em;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+.nav__body {
+  font-weight: 100;
+  font-size: 18px;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 0.3s ease-out, opacity 0.2s ease-out;
+}
+
+.edu-card {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-size: 22px;
+  color: #ffedbf;
+}
+.edu-card p {
+  color: #FFF;
+}
+.edu-card a {
+  color: #FFF;
+}
+.edu-card strong {
+  color: #FFF;
+}
+.edu-card .small {
+  font-size: 20px;
+  margin: 0;
+}
+
+.edu-logo {
+  padding: 8px;
+  width: 80px;
+  height: 80px;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */
