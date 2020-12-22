@@ -17,12 +17,19 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: HTML to PDF
+      - name: Generate PDF
         uses: fifsky/html-to-pdf-action@master
         with:
           htmlFile: ./CV2/index.html
           outputFile: ./resume.pdf
           pdfOptions: '{"margin": {"top": "1px", "left": "100px", "right": "100px", "bottom": "100px"}}'
+
+      - name: Commit files
+        run: |
+          git config --local user.name "githubactions"
+          git config --local user.email "actions@github.com"
+          git add ./resume.pdf
+          git commit -m "Auto add pdf file"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
