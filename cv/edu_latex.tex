@@ -1,0 +1,195 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{multicol}
+\usepackage{scrextend}
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Armin Kazemi} % Your name
+% if you do not have a website, sub your github instead.
+\address{+98 9025500510 \\ Tehran, Iran} 
+\address{\href{mailto:arminkz3@gmail.com}{arminkz3@gmail.com} \\ \href{arminkz.github.io}{arminkz.github.io}}  %
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+
+
+{\bf BSc. Computer Engineering}, \href{aut.ac.ir}{Amirkabir University of Technology} \hfill {2015 - 2020}
+
+
+\begin{itemize}
+    \itemsep -3pt {} 
+     \item Cumulative GPA: \textbf{17.73 / 20} 
+     \item Selected Courses:
+	\small{Computer Engineering Project  (20 / 20) | Artificial Intelligence \& Expert Systems (20 / 20)  \\ Data Mining (20 / 20) | Algorithm Design (20 / 20) | Advanced Computer Programming (20 / 20)}
+ \end{itemize}
+
+\end{rSection}
+
+
+\begin{rSection}{RESEARCH INTERESTS}
+
+\begin{multicols}{3}
+\begin{itemize}
+    \itemsep -3pt {} 
+     \item Machine Learning
+     \item Deep Learning
+     \item Computer Vision
+     \item GANs
+     \item Robotics
+     \item Computer Graphics
+     \item Internet of Things
+ \end{itemize}
+ \end{multicols}
+
+\end{rSection}
+
+
+\begin{rSection}{PUBLICATIONS}
+
+\begin{itemize}
+    \itemsep -3pt {}
+    \item A. Kazemi, N. Gholipour, H. Faragardi, A. Abderezaei and H. Fotouhi, \textbf{“Optimizing Sink Node Placement in Wireless Sensor Networks,”} Sensors 2021. (Under prep.)
+ \end{itemize}
+
+\end{rSection}
+
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+
+
+\item \textbf{Detecting COVID Hotspots and Crowdedness in Public Places} {IoT, Machine Learning, MQTT}
+\begin{addmargin}[2em]{2em}
+As my BSc. project, Implemented a Internet of Things solution in order to detect crowded areas by analyzing wireless (Wi-Fi and Bluetooth) footprint from smartphones. Moreover, utilizing Machine Learning to predict crowdedness in future days. \href{https://github.com/arminkz/crowdedness-detection}{(view on Github)}
+\end{addmargin}
+
+
+\item \textbf{Chess Bot} {Python, Tensorflow, Convolutional Neural Networks, Computer Vision}
+\begin{addmargin}[2em]{2em}
+Created a Computer Vision Algorithm to detect chessboard on the screen, Implemented a CNN to extract current position on the Chessboard then feeding the FEN (Forsyth–Edwards Notation) to a chess engine and automatically play the game. \href{https://github.com/arminkz/ChessBot}{(view on Github)}
+\end{addmargin}
+
+
+\item \textbf{Reversi AI}  {Java, Classic Artificial Intelligence, Minimax with A/B Pruning}
+\begin{addmargin}[2em]{2em}
+Created an Artificial Intelligence for the Reversi (also known as Othello) boardgame, which uses Minimax with A/B pruning, also adapted some Machine Learning techniques for better evaluation of game positions. \href{https://github.com/arminkz/Reversi}{(view on Github)}
+\end{addmargin}
+
+\item \textbf{Eye Tracking in VR headsets} {Python, OpenCV}
+\begin{addmargin}[2em]{2em}
+Implemented a Computer Vision algorithm for detecting user's gaze point in VR headsets using a embeded camera behind the VR lens. \href{https://github.com/arminkz/EyeTrackingVR}{(view on Github)}
+\end{addmargin}
+
+
+\item \textbf{Persian News Search Engine} {Python, Angular, TF-IDF, Inverted Index, KMeans, Crawler}
+\begin{addmargin}[2em]{2em}
+Implemented a Persian language news search engine. Including a front-end UI, a Crawler and the engine itself. The engine utilizes Mini-Batch-KMeans for large scale clustering and TF-IDF algorithm for intra-cluster searching. Moreover, some stemming techniques has been put to use.
+\href{https://github.com/kianelbo/newsKAP}{(view on Github)}
+\end{addmargin}
+
+\item \textbf{PoorCraft} {Java, Isometric Game Engine, Strategic Game, Network Game}
+\begin{addmargin}[2em]{2em}
+Created a isometric strategic game as a part of our Advanced Programming course. Game mechanics are similar to the famous Age of Empires game. Includes LAN multiplayer mode and also a map editor. \href{https://github.com/arminkz/PoorCraft}{(view on Github)}
+\end{addmargin}
+
+\item \textbf{ShaderToy.NET} {C\#, GLSL, OpenGL} 
+\begin{addmargin}[2em]{2em}
+Implemented a testing and developing environment for GLSL shaders. GLSL is a special code which is executed on GPU to achieve graphical effects. \href{https://github.com/arminkz/ShaderToy.NET}{(view on Github)}
+\end{addmargin}
+
+
+\item \textbf{Ray Casting and Line of Sight Simulator} {Java, Ray Casting}
+\begin{addmargin}[2em]{2em}
+Implemented two dimensional ray casting algorithm in Java. Used to estimate robot's vision area. \href{https://github.com/arminkz/RayCasting}{(view on github)}
+\end{addmargin}
+
+
+\item \textbf{Sayeh CPU} {VHDL, Hardware Design}
+\begin{addmargin}[2em]{2em}
+Designed a simple 16-bit SISD CPU using VHDL with a limited instruction set. and also created a basic compiler for the designed architecture. \href{https://github.com/arminkz/ShaderToy.NET}{(view on github)}
+\end{addmargin}
+
+
+
+\end{rSection} 
+
+
+\begin{rSection}{Teaching Experience}
+\vspace{-1.25em}
+\item \textbf{Teaching Assistant} {Data Mining (Under Supervision of Dr. Nazerfard)} \hfill Oct 2019 - Jan 2020
+\item \textbf{Teaching Assistant} {Artificial Intelligence (Under Supervision of Dr. Nickabadi)} \hfill Feb 2018 - Jul 2018
+\item \textbf{Teaching Assistant} {Advanced Programming (Under Supervision of Dr. Pourvatan)} \hfill Feb 2017 - Jul 2017
+\item \textbf{Teaching Assistant} {Fundamentals of Programming (Under Supervision of Dr. Pourvatan)} \hfill Oct 2016 - Jan 2017
+\\
+\end{rSection} 
+
+
+%----------------------------------------------------------------------------------------
+% make sure to list your skills from most comfortable to least comfortable
+% never put anything on here that you cant talk about in an interview
+\begin{rSection}{SKILLS}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Python, Java, Javascript, C\#, C++, Swift, Kotlin, Ruby, Racket \\
+Data Mining \& AI & Tensorflow, Numpy, Pandas, Jupyter Notebook \\
+Web Development & Node.js, Angular, SCSS, Flask\\
+Mobile Development & Android, iOS \\
+Database & MongoDB, MySQL \\
+Embeded Systems \& Hardware & Arduino, Raspberry Pi, VHDL \\
+Other & Git, Docker, LaTeX
+
+\\
+\end{tabular}\\
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{LANGUAGE SKILLS}
+
+{\bf English}, IELTS
+\begin{addmargin}[1em]{0em}
+\textbf{Overall: (7.5 / 9): }  Listening: (8.5 / 9) | Reading: (8 / 9) | Writing: (6.5 / 9) | Speaking: (7.5 / 9) 
+\end{addmargin}
+{\bf Persian}, Native \\
+{\bf Azarbaijani}, Native \\
+
+
+\end{rSection}
+
+
+\begin{rSection}{Hobbies}
+
+Hiking, Skiing, Rock climbing, Camping, 3D Printing, Playing board-games (especially Chess) and Watching movies
+\\
+
+
+
+\end{rSection}
+
+
+\begin{rSection}{References}
+
+\begin{multicols}{3}
+\textbf{Dr. Saeed Shiry Ghidary}\\
+Staffordshire University | Stoke-on-Trent, United Kingdom\\
+\href{mailto:saeed.shiryghidary@staffs.ac.uk}{saeed.shiryghidary@staffs.ac.uk}
+\\
+\\
+\textbf{Dr. Ehsan Nazerfard}\\
+Amirkabir University of Technology | Tehran, Iran\\
+\href{mailto:nazerfard@aut.ac.ir}{nazerfard@aut.ac.ir}
+\\
+
+\textbf{Dr. Ahmad Nickabadi}\\
+Amirkabir University of Technology | Tehran, Iran\\
+\href{mailto:nickabadi@aut.ac.ir}{nickabadi@aut.ac.ir}
+\\
+\end{multicols}
+
+\end{rSection}
+
+
+\end{document}
