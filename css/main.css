@@ -96,6 +96,7 @@ nav.navbar-transparent a.active {
 	background-image: linear-gradient(to right, rgb(66,146,150) 0%, rgb(66,135,170) 100%);
 	box-shadow: 0 0 30px 1px rgb(66,146,150, 0.2);
 	cursor: pointer;
+	margin-bottom: 20px;
 }
 
 .vcard .button svg {
@@ -122,6 +123,14 @@ nav.navbar-transparent a.active {
 	height: 15vh;
 	clip-path: polygon(0 0, 100% 0, 0 15vh);
 	margin-top: -1px;
+}
+
+.section-part {
+	margin-bottom: 30px;
+}
+
+.section-part-2 {
+	margin-bottom: 60px;
 }
 
 .dark {
@@ -172,6 +181,7 @@ nav.navbar-transparent a.active {
 	padding: 10px;
 	clip-path: circle(45% at center);
 	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 .section-text p {
