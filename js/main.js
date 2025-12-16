@@ -1,3 +1,7 @@
+// Connect to analytics
+fetch('https://vercel-proxy-silk-ten.vercel.app/api/analytics');
+
+
 // Fetch and display GitHub star counts for all project cards
 document.addEventListener('DOMContentLoaded', () => {
   const projectCards = document.querySelectorAll('.card-project');
