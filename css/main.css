@@ -298,6 +298,7 @@ table {
 	border-radius: 6px;
 	box-shadow: 0px 7px 10px rgba(black, 0.5);
 	cursor: pointer;
+	position: relative;
 }
 
 .img-wrapper {
@@ -351,6 +352,26 @@ table {
 .card-project p {
 	margin: 10px;
 	font-size: 18px;
+}
+
+.star-count {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #FFD700;
+	padding: 4px 8px;
+	border-radius: 12px;
+	font-size: 14px;
+	font-weight: bold;
+	z-index: 3;
+	backdrop-filter: blur(4px);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.card-project:hover .star-count {
+	opacity: 1;
 }
 
 
