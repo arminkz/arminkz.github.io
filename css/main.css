@@ -59,11 +59,12 @@ nav.navbar-transparent a.active {
 .vcard {
 	margin-top: 10vh;
 	background-color: #212529;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0); 
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
     box-shadow: 0px 10px 13px -7px #000000, -50px -50px 0px -30px rgba(0,0,0,0);
     border-radius: 16px;
     overflow: hidden;
     color: rgb(209, 209, 209);
+    min-height: 320px;
 }
 
 @media(min-width: 720px){
@@ -72,8 +73,17 @@ nav.navbar-transparent a.active {
   }
 } 
 
+.vcard-img-col {
+	padding: 0 !important;
+	min-height: 220px;
+	display: flex;
+}
+
 .vcard img {
 	width: 100%;
+	object-fit: cover;
+	object-position: center top;
+	flex: 1;
 }
 
 .vcard h2 {
@@ -96,13 +106,19 @@ nav.navbar-transparent a.active {
 	display: inline-block;
 	padding: 10px 20px;
 	margin-left: 20px;
-	/*background-color: rgb(66,146,150);*/
 	border-radius: 10px;
 	transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-	background-image: linear-gradient(to right, rgb(66,146,150) 0%, rgb(66,135,170) 100%);
-	box-shadow: 0 0 30px 1px rgb(66,146,150, 0.2);
 	cursor: pointer;
 	margin-bottom: 4vh;
+}
+
+.vcard .button-github {
+	background-image: linear-gradient(to right, #6e40c9 0%, #8957e5 100%);
+	box-shadow: 0 0 30px 1px rgba(110, 64, 201, 0.2);
+}
+
+.vcard .button-github:hover {
+	box-shadow: 0 0 30px 1px rgba(110, 64, 201, 0.4);
 }
 
 .vcard .button svg {
@@ -112,6 +128,15 @@ nav.navbar-transparent a.active {
 .vcard .button:hover {
 	transform: scale(1.05);
 	box-shadow: 0 0 30px 1px rgb(76,156,160, 0.4);
+}
+
+.vcard .button-linkedin {
+	background-image: linear-gradient(to right, #0077b5 0%, #0e76a8 100%);
+	box-shadow: 0 0 30px 1px rgba(0, 119, 181, 0.2);
+}
+
+.vcard .button-linkedin:hover {
+	box-shadow: 0 0 30px 1px rgba(0, 119, 181, 0.4);
 }
 
 
